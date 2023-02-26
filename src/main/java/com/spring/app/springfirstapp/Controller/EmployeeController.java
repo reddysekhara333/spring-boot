@@ -46,6 +46,7 @@ public class EmployeeController {
 
     @PutMapping("/update")
     public Employee updateEmployee(@RequestBody Employee product){
+//added a liness
         return service.updateEmployee(product);
     }
 }
